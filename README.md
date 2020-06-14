@@ -8,6 +8,13 @@ to identify age during the following scenarios:
 
 1. Static images
   - This will only work with computer vision.
+  - [Conclusion of paper 13 June 2020](https://github.com/Andrew-Chen-Wang/static-image-age-detection):
+    age detector is terrible, even with the 
+    multi-image processing. It is most likely due to the model, as most of my input
+    data is of teenagers and they're not particularly well-documented in the
+    age detector model. Moving on to integrating with audio recordings to really
+    make this work much better! That's of my opinion at least.
+    
 2. Chatrooms and Audio Recordings
   - This would only work with the text-to-speech or speech recognition, depending
   on the context of the input.
